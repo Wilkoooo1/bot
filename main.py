@@ -43,7 +43,7 @@ async def order(interaction: discord.Interaction, items: str):
 
 @bot.event
 async def on_ready():
-    GUILD_ID = YOUR_GUILD_ID_HERE  # Replace with your server ID
+    GUILD_ID = 1270770823669747803  # Replace with your server ID
     await bot.tree.sync(guild=discord.Object(id=GUILD_ID))
     print(f"✅ Bot is ready as {bot.user}")
 
